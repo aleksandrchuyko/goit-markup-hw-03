@@ -48,9 +48,10 @@ address {
   font-style: inherit;
 }
 
-/* .section {
-  padding: 94px;
-} */
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .container {
   width: 1200px;
@@ -193,10 +194,7 @@ address {
 }
 
 /* ----------------ABOUT US------------- */
-.about {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 .about-list {
   display: flex;
 }
@@ -226,7 +224,7 @@ address {
 
 /* ----------------WORKS------------- */
 .work {
-  padding-bottom: 94px;
+  padding-top: 0;
 }
 .work-title {
   font-weight: 700;
@@ -252,8 +250,6 @@ address {
 /* ----------------TEAM------------- */
 .team {
   background-color: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 .team-title {
   font-weight: 700;
@@ -298,10 +294,6 @@ address {
 }
 
 /* ----------------PROJECTS------------- */
-.projects {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .projects-filter-list {
   display: flex;
