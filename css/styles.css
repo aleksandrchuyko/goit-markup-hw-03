@@ -175,7 +175,6 @@ address {
   text-transform: uppercase;
   color: var(--main-title-color);
   min-width: 696px;
-  padding-bottom: 30px;
 }
 
 .hero-btn {
@@ -189,7 +188,7 @@ address {
   color: var(--main-button-color);
   width: 200px;
   min-height: 50px;
-  margin: 0 auto;
+  margin: 30px auto 0 auto;
   background-color: #2196f3;
 }
 
@@ -273,6 +272,10 @@ address {
   margin-bottom: 30px;
   margin-right: 30px;
 }
+.teammate-text-box {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .teammate-title {
   font-weight: 500;
   font-size: 16px;
@@ -280,7 +283,7 @@ address {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
-  margin-top: 30px;
+
   margin-bottom: 10px;
 }
 
@@ -290,7 +293,6 @@ address {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-  margin-bottom: 30px;
 }
 
 /* ----------------PROJECTS------------- */
@@ -338,6 +340,8 @@ address {
 }
 .projects-item .border {
   padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
@@ -349,7 +353,6 @@ address {
   letter-spacing: 0.06em;
   color: var(--second-title-color);
   margin-bottom: 4px;
-  margin-left: 24px;
 }
 
 .project-text {
@@ -357,8 +360,6 @@ address {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-  margin-bottom: 20px;
-  margin-left: 24px;
 }
 
 /* ----------------FOOTER------------- */
